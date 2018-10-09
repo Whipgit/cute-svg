@@ -31,10 +31,10 @@ cute({ filePath: inputFile })
 
 133kb
 
-![notcute](./src/sample.jpg 'Sample image not cute')
+![notcute](src/sample.jpg 'Sample image not cute')
 
 ### To this:
 
 36kb
 
-![cute](./src/output.png 'Sample image cute')
+![cute](src/output.png 'Sample image cute')

@@ -1,6 +1,6 @@
 {
   "name": "cute-svg",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generate cute SVG traces based on images",
   "main": "src/index.js",
   "author": "Jason Rametta",
@@ -13,6 +13,11 @@
     "processing",
     "gatsby"
   ],
+  "homepage": "https://github.com/rametta/cute-svg",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rametta/cute-svg.git"
+  },
   "license": "Apache-2.0",
   "dependencies": {
     "potrace": "^2.1.1",
