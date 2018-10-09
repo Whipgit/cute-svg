@@ -1,0 +1,21 @@
+{
+  "name": "cute-svg",
+  "version": "1.0.0",
+  "description": "Generate cute SVG traces based on images",
+  "main": "src/index.js",
+  "author": "Jason Rametta",
+  "scripts": {
+    "dev": "node src/example.js"
+  },
+  "keywords": [
+    "svg",
+    "image",
+    "processing",
+    "gatsby"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "potrace": "^2.1.1",
+    "svgo": "^1.1.1"
+  }
+}
