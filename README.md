@@ -5,7 +5,7 @@
 
 # 📸 Cute SVG
 
-Image optimizer by converting to SVG.
+Image optimizer by converting to SVG. [Demo](https://cute-svg.surge.sh/)
 
 ## Install
 
@@ -18,11 +18,14 @@ const cute = require('cute-svg')
 const fs = require('fs')
 
 const inputFile = __dirname + '/sample.jpg'
-const outputFile = __dirname + '/output.txt'
+const outputFile = __dirname + '/output.json'
 
 cute({ filePath: inputFile })
   .then(svg => fs.writeFileSync(outputFile, svg))
   .catch(e => console.log(e))
+
+// OUTPUT
+// { tracedSvg: String, aspectRatio: Number }
 ```
 
 ## Example
