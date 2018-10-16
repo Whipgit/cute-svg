@@ -52,7 +52,7 @@ const outline = options => path => sizes =>
 
 // shouldEncode :: Boolean -> Optimized -> String | Formatted
 const shouldEncode = encode => ({ optimized, sizes }) =>
-  encode ? format(optimized)(sizes) : svg
+  encode ? format(optimized)(sizes) : optimized
 
 // shouldStringify :: Boolean -> String | Formatted -> String
 const shouldStringify = makeStringy => svg =>
